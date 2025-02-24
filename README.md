@@ -1,13 +1,11 @@
 
-# DSFolio V1
+# Portfolio ReactJS
 
 <center>
-    <img src="/public/cover.png" alt="DSFolio" />
+    <img src="/public/cover.png" alt="SW" />
 </center>
 
 <center>
-
-https://dsfolio-v1.vercel.app/
 
 </center>
 
