@@ -1,11 +1,13 @@
 
-# Portfolio ReactJS
+# DSFolio V1
 
 <center>
-    <img src="/public/cover.png" alt="SW" />
+    <img src="/public/cover.png" alt="DSFolio" />
 </center>
 
 <center>
+
+https://dsfolio-v1.vercel.app/
 
 </center>
 
@@ -15,11 +17,11 @@
 ## Installation
 1. Clone the repository
     ```bash 
-    git clone https://github.com/dsbalico/dsfolio-v1.git
+    git clone https://github.com/yzar-brr/react-portfolio.git
     ```
 2. Change into the project directory
     ```bash
-    cd dsfolio-v1
+    cd react-portfolio
     ```
 3. Install dependencies
     ```bash
