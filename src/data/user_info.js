@@ -77,7 +77,7 @@ const info = {
             school: "Lycée Henri Becquerel | Tours",
             degree: "BAC Profesionnel Systèmes Numériques Option C",
             duration: "2018 - 2021",
-            image: "tup.webp"
+            image: "bcq.png"
         },
     ],
 
@@ -98,7 +98,7 @@ const info = {
             position: "Stagiare Big Data | Excel Data",
             company: "Nestlé Notre Dame D'Oé.",
             duration: "Dec 2022 - Feb 2023 (3 Mois)",
-            image: "spvttc.webp",
+            image: "nestle.jpg",
             descriptions: [
                 "Gestion de données agronomiques pour l'analyse de la production.",
                 "Aide au développement d'un outil de gestion de données.",
@@ -109,7 +109,7 @@ const info = {
             position: "Stagiare Réseaux | AD",
             company: "IUT Tours Nord.",
             duration: "Jan 2022 - Feb 2022 (1 Mois)",
-            image: "spvttc.webp",
+            image: "iut.webp",
             descriptions: [
                 "Configuration de routeurs et de commutateurs.",
                 "Création d'un AD pour la gestion des utilisateurs.",
@@ -121,22 +121,24 @@ const info = {
     // ============ CERTIFICATES ============
     certificates: [
         {
-            title: "Foundations of Cybersecurity Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.coursera.org/account/accomplishments/records/SF2PPLNVTH6R",
-        },
-        {
-            title: "Git and GitHub Essentials",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/fa00026a-4db5-4269-ab4f-340f5382ac03",
-        },
-        {
-            title: "Crash Course on Python Certificate",
-            description: "Provided by Coursera & Authorized by Google",
+            title: "Le NFC (Near Field Communication)",
+            description: "NFC est essentiel dans les paiements sans contact modernes, utilisant des ondes radio pour des transactions à moins de 4 cm.",
             icon: "google",
-            link: "https://www.coursera.org/account/accomplishments/verify/S9773NBEK4S6"
+        },
+        {
+            title: "Fonctionnement du NFC",
+            description: "Le NFC fonctionne grâce à deux dispositifs : un lecteur (comme un terminal de paiement) et un tag ou une carte NFC. ",
+            icon: "google",
+        },
+        {
+            title: "",
+            description: "Le lecteur génère un champ électromagnétique qui alimente le tag NFC, permettant ainsi un échange de données. Ce processus garantit un haut niveau de sécurité, car la communication est limitée à une très courte portée (moins de 4 cm).",
+            icon: "google",
+        },
+        {
+            title: "Impact écologique",
+            description: "L’utilisation croissante du NFC peut réduire l’empreinte écologique en diminuant l’usage des billets papier. La production des cartes NFC et des terminaux de paiement nécessite des ressources et de l’énergie.",
+            icon: "google",
         },
         // {
         //     title: "Technical Support Fundamentals Certificate",

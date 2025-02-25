@@ -56,7 +56,7 @@ function EducationAndExperience() {
         {/* =========== CERTIFICATES TITLE =========== */}
         <h4 className="text-xl dark:text-white mt-6 font-bold flex gap-2 items-center">
           <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
-          Certificates
+          Veille technologique
         </h4>
 
         <div
@@ -79,7 +79,7 @@ function EducationAndExperience() {
 
                     <div className="flex justify-center items-center h-full bg-gray-100 p-6 dark:bg-neutral-900">
                       <div className="hs-tooltip [--placement:bottom] inline-block">
-                        <a href={cert.link} target="_blank" rel="noreferrer" className="hs-tooltip-toggle text-center text-gray-800 dark:text-white hover:text-red-800 hover:dark:text-red-500">
+                        <a target="_blank" rel="noreferrer" className="hs-tooltip-toggle text-center text-gray-800 dark:text-white">
                           {/* =========== CERTIFICATE NAME =========== */}
                           <p className=" transition duration-700 px-6 font-bold">
                             {cert.title}
@@ -89,11 +89,6 @@ function EducationAndExperience() {
                             {cert.description}
                           </p>
                         </a>
-
-                        {/* =========== TOOLTIP TEXT =========== */}
-                        <span className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium dark:text-white rounded shadow-sm" role="tooltip">
-                          Open Certificate
-                        </span>
                       </div>
                     </div>
                   </div>
